@@ -13,12 +13,6 @@
 		B88252B61B0C248300040ACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88252B41B0C248300040ACD /* Main.storyboard */; };
 		B88252B81B0C248300040ACD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B88252B71B0C248300040ACD /* Images.xcassets */; };
 		B88252BB1B0C248300040ACD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B88252B91B0C248300040ACD /* LaunchScreen.xib */; };
-		B88252E21B0C25D300040ACD /* libAppAdForce.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B88252DF1B0C25D300040ACD /* libAppAdForce.a */; };
-		B88252E41B0C25FD00040ACD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88252E31B0C25FD00040ACD /* StoreKit.framework */; };
-		B88252E61B0C260300040ACD /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88252E51B0C260300040ACD /* AdSupport.framework */; };
-		B88252E81B0C260900040ACD /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88252E71B0C260900040ACD /* iAd.framework */; };
-		B88252EA1B0C261100040ACD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88252E91B0C261100040ACD /* SystemConfiguration.framework */; };
-		B88252EC1B0C261500040ACD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88252EB1B0C261500040ACD /* Security.framework */; };
 		B88252EE1B0C2EC500040ACD /* AppAdForce.plist in Resources */ = {isa = PBXBuildFile; fileRef = B88252ED1B0C2EC500040ACD /* AppAdForce.plist */; };
 /* End PBXBuildFile section */
 
@@ -33,11 +27,6 @@
 		B88252B51B0C248300040ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B88252B71B0C248300040ACD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B88252BA1B0C248300040ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B88252DD1B0C25D300040ACD /* AdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdManager.h; sourceTree = "<group>"; };
-		B88252DE1B0C25D300040ACD /* AnalyticsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsManager.h; sourceTree = "<group>"; };
-		B88252DF1B0C25D300040ACD /* libAppAdForce.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppAdForce.a; sourceTree = "<group>"; };
-		B88252E01B0C25D300040ACD /* Ltv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ltv.h; sourceTree = "<group>"; };
-		B88252E11B0C25D300040ACD /* Notify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notify.h; sourceTree = "<group>"; };
 		B88252E31B0C25FD00040ACD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		B88252E51B0C260300040ACD /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		B88252E71B0C260900040ACD /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
@@ -51,12 +40,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B88252EC1B0C261500040ACD /* Security.framework in Frameworks */,
-				B88252EA1B0C261100040ACD /* SystemConfiguration.framework in Frameworks */,
-				B88252E81B0C260900040ACD /* iAd.framework in Frameworks */,
-				B88252E61B0C260300040ACD /* AdSupport.framework in Frameworks */,
-				B88252E41B0C25FD00040ACD /* StoreKit.framework in Frameworks */,
-				B88252E21B0C25D300040ACD /* libAppAdForce.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +54,6 @@
 				B88252E71B0C260900040ACD /* iAd.framework */,
 				B88252E51B0C260300040ACD /* AdSupport.framework */,
 				B88252E31B0C25FD00040ACD /* StoreKit.framework */,
-				B88252DC1B0C25D300040ACD /* FOX_iOS_SDK_v2.15.1g */,
 				B88252A91B0C248300040ACD /* FoxSample */,
 				B88252A81B0C248300040ACD /* Products */,
 			);
@@ -108,18 +90,6 @@
 				B88252AC1B0C248300040ACD /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B88252DC1B0C25D300040ACD /* FOX_iOS_SDK_v2.15.1g */ = {
-			isa = PBXGroup;
-			children = (
-				B88252DD1B0C25D300040ACD /* AdManager.h */,
-				B88252DE1B0C25D300040ACD /* AnalyticsManager.h */,
-				B88252DF1B0C25D300040ACD /* libAppAdForce.a */,
-				B88252E01B0C25D300040ACD /* Ltv.h */,
-				B88252E11B0C25D300040ACD /* Notify.h */,
-			);
-			path = FOX_iOS_SDK_v2.15.1g;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,10 +273,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FoxSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/FOX_iOS_SDK_v2.15.1g",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -317,10 +284,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FoxSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/FOX_iOS_SDK_v2.15.1g",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -344,6 +308,7 @@
 				B88252CC1B0C248300040ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
