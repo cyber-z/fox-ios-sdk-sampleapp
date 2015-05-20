@@ -27,11 +27,6 @@
 		B88252B51B0C248300040ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B88252B71B0C248300040ACD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B88252BA1B0C248300040ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B88252E31B0C25FD00040ACD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		B88252E51B0C260300040ACD /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		B88252E71B0C260900040ACD /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
-		B88252E91B0C261100040ACD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		B88252EB1B0C261500040ACD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		B88252ED1B0C2EC500040ACD /* AppAdForce.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppAdForce.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,11 +44,6 @@
 		B882529E1B0C248300040ACD = {
 			isa = PBXGroup;
 			children = (
-				B88252EB1B0C261500040ACD /* Security.framework */,
-				B88252E91B0C261100040ACD /* SystemConfiguration.framework */,
-				B88252E71B0C260900040ACD /* iAd.framework */,
-				B88252E51B0C260300040ACD /* AdSupport.framework */,
-				B88252E31B0C25FD00040ACD /* StoreKit.framework */,
 				B88252A91B0C248300040ACD /* FoxSample */,
 				B88252A81B0C248300040ACD /* Products */,
 			);
