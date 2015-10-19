@@ -22,10 +22,10 @@
     
     // インストール計測
     [[AppAdForceManager sharedManager] sendConversionWithStartPage:@"default"];
-    
+
     // アクセス解析
     [ForceAnalyticsManager sendStartSession];
-    
+
     return YES;
 }
 
