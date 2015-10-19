@@ -3,4 +3,4 @@
 *.xcodeproj/project.xcworkspace/xcuserdata/*.xcuserdatad
 Pods/
 Podfile.lock
-FoxSample.xcworkspace/xcuserdata/
+*.xcworkspace/xcuserdata/
