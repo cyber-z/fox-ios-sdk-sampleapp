@@ -21,11 +21,11 @@
     // Override point for customization after application launch.
     
     // インストール計測
-    [[AppAdForceManager sharedManager] sendConversionWithStartPage:@"default"];
-    
+//    [[AppAdForceManager sharedManager] sendConversionWithStartPage:@"default"];
+
     // アクセス解析
-    [ForceAnalyticsManager sendStartSession];
-    
+//    [ForceAnalyticsManager sendStartSession];
+
     return YES;
 }
 
